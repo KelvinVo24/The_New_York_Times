@@ -9,6 +9,7 @@
     <link rel="icon" href="./assets/img/New_York_Times_Title_icon.svg.png" type="image/x-icon">
 </head>
 <body>
+    <div class="loading-text">0%</div>
     <header>
         <div class="section-1">
             <div class="search">
@@ -100,8 +101,45 @@
 
             
         </div>
-        <div class="container-right">
+        <div class="container-right" >
+            <div class="right-news">
+                <img src="./assets/right-article/31POP-PAST-threeByTwoSmallAt2X.webp" alt="">
+                <small>Taylor Swift; KelvinVo</small>
+                <h3>Hey, Pop Stars: Think Twice Before Messing With the Past</h3>
+                <p>There’s good financial reason to revisit old or released material, but most trips back in 2023 resulted in diminishing returns.</p>
+                <a href="#">5 MIN READ</a>
+            </div>
+            <hr>
+            <div class="multi-news" id="newsContainer">
+                <div class="small-news">
+                    <img src="./assets/small_News/26SCI-SPAN-02-fglw-threeByTwoMediumAt2X.webp" alt="">
+                    <p>This gorrila's caregiver face familiar question about aging.</p>
+                    <a>5 MIN READ</a>
+                </div>
 
+                <div class="small-news border">
+                        <img src="./assets/small_News/iOffer.webp" alt="">
+                        <p>I offered to give my home to my son. Why does he expect me to leave it?</p>
+                        <a>4 MIN READ</a>
+                </div>
+
+                <div class="small-news">
+                    <img src="./assets/small_News/nutrition.webp" alt="">
+                    <p>Here are 10 nutrition tips we’ll carry with us into 2024.</p>
+                    <a>3 MIN READ</a>
+                </div>
+
+                <div class="small-news border" >
+                    <img src="./assets/small_News/japanese.webp" alt="">
+                    <p>These Japanese American New Year’s food traditions transcend time.</p>
+                    <a>3 MIN READ</a>
+                </div>
+            </div>  
+            <div class="button">
+                <button onclick="showPreviousNews()" id="prevButton"><i class="fa-solid fa-chevron-left"></i></button>
+                <button onclick="showNextNews()" id="nextButton"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            
         </div>
     </div>
     <script src="./assets/main.js"></script>
