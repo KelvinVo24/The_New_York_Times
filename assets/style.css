@@ -31,11 +31,17 @@ header{
     font-family: sans-serif;
 }
 
-.section-1, .section-2{
+.section-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
+}
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .section-1 .search{
@@ -43,7 +49,7 @@ header{
 }
 
 .section-1 .nav-list{
-    margin-left: 140px;
+    margin-left: 100px;
     font-size: 10px;
 }
 
@@ -61,7 +67,7 @@ header{
 
 .logo img{
     width: 430px;
-    height: 58px;
+    height: 66px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +82,7 @@ header{
 
 .date-time span{
     font-weight: bold;
+    line-height: 1.4;
 }
 
 .section-3{
@@ -90,6 +97,8 @@ header{
     display: inline-block;
     margin-right: 30px;
 }
+
+/* Container */
 
 .container{
     border-top: 1px solid black;
@@ -136,10 +145,18 @@ header{
     border-bottom: 1px solid #ccc;
 }
 
+.container-left .news .left .live{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
 .container-left .news .left span{
     color: #D0021B;
     font-size: 11px;
-    margin-bottom: 5px;
+}
+
+.container-left .news .left b{
+    margin-right: 5px;
 }
 
 .container h3{
@@ -210,6 +227,7 @@ header{
 
 .container-right .multi-news{
     display: flex;
+    height: 222px;
 }
 
 .container-right .multi-news .small-news{
@@ -237,9 +255,9 @@ header{
     font-weight: bold;
 }
 
-.button{
+/* .button{
     display: block;
-}
+} */
 
 .small-news{
     display: none;
